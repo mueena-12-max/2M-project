@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(white 10%,rgb(243, 243, 90) 90%);
+}
+header{
+    padding: 5px;
+    background-color: rgb(17, 3, 3);
+    color:white;
+    height:50px;
+}
+h1{
+    font-size: 18px;
+    z-index: 1;
+    margin-left: 35px;
+    position: relative;
+    top:-30px;
+    right: -20px;
+}
+.form-control{
+    height: 40px;
+    width: 80%;
+    border-style: solid;
+    margin-left: 5px;
+    padding-left: 50px;
+    box-shadow: 2px 3px 2px  #000;
+    transition: 0.3s ease;
+    
+}
+.form-control::placeholder{
+    color: green;
+    font-weight: bold;
+
+}
+.form-control:hover{
+    border-color: blue;
+    transform: scale(0.9);
+}
+.shipping-input{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 91%;
+}
+select{
+    height: 40px;
+    width: 93%;
+    font-size: 20px;
+    color: green;
+    border-style: solid;
+    margin-left: 5px;
+    padding-left: 10px;
+    box-shadow: 2px 3px 2px  #000;
+    transition: 0.3s ease;
+    
+}
+.Customer{
+    text-align: center;
+    color: green;
+}
+.logoimg{
+    position: relative;
+    left: -3px;
+    bottom: -10px;
+    z-index: 0;
+    border-radius: 50%;
+}
+.main{
+        width: 95%;
+        background-color: white;
+        margin-left: 10px;
+        box-shadow: 2px 4px 10px black;
+    }
+.img1{
+    position: relative;
+    top:-290px;
+    right: -40px;
+}
+.phoneImg{
+    position: relative;
+    top: -175px;
+    right: 10px;
+}
+.locImg{
+    position: relative;
+    top: -55px;
+    right: 35px;
+
+}
+.nameImg{
+    position: relative;
+    top:-235px;
+    right: 65px;
+}
+.shopping-cart{
+    display: none;
+}
+.shopping-cart1{
+    position: relative;
+    top: -220px;
+    right: -45px;
+}
+.product-input{
+    margin-left: 50px;
+    width: 50px;
+}
+.second-cl{
+    margin-left: 12px;
+}
+.third-cl{
+    margin-left: 27px;
+}
+.fourth-cl{
+    margin-left: 15px;
+}
+.next{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: green;
+    width: 330px;
+    color: white;
+    padding: 5px;
+}
+.groundnut{
+    display: none;
+}
+.maize, .beans,.millet,.sheanut,.soybeans{
+    display: none;
+}
+@media  screen and (min-width:700px){
+    body{
+        
+    }
+    header{
+        padding: 15px;
+        text-align: center;
+    }
+    h1{
+        font-size: 20px;
+        left: -300px;
+        top: -80px;
+    }
+    .main{
+        width:40%;
+        background-color: white;
+        margin-left: 400px;
+        box-shadow: 2px 4px 10px black;
+    }
+    .next{
+        margin-left: 400px;
+        width: 530px;
+        padding: 10px;
+        font-size: 30px;
+    }
+    .logoimg{
+        left: -600px;
+        width: 100px;
+        top: -10px;
+    }
+    .img1{
+        right: -120px;
+        top:-295px;
+    }
+    .phoneImg{
+        top: -180px;
+    }
+    .nameImg{
+        top: -245px;
+    }
+    .shopping-cart1{
+        right: -105px;
+    }
+    .groundnut{
+        display: block;
+        position: relative;
+        top: -1090px;
+        right: -1000px;
+        border-radius: 10px;
+    }   
+    .maize{
+       display: block;
+        position: relative;
+        top: -1080px;
+        right: -1000px;
+        border-radius: 10px;  
+    }
+    .beans{
+       display: block;
+        position: relative;
+        top: -1070px;
+        right: -1000px;
+        border-radius: 10px;  
+    }
+    .soybeans{
+        display: block;
+         position: relative;
+        top: -1640px;
+        right: -30px;
+        border-radius: 10px;
+    }
+    .sheanut{
+         display: block;
+         position: relative;
+        top: -1630px;
+        right: -30px;
+        border-radius: 10px;
+
+    }
+    .millet{
+         display: block;
+         position: relative;
+        top: -1620px;
+        right: -30px;
+        border-radius: 10px;
+
+    }
+    .height-control{
+        max-height: 50px;
+    }
+}

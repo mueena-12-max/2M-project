@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+.method{
+    width: 300px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.back{
+    background-color: rgb(84, 236, 84);
+}
+.submit{
+    background-color: rgb(245, 65, 65);
+    margin: 20px;
+    
+}
